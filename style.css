@@ -1,0 +1,78 @@
+*{
+    margin: 1%; ;
+    padding: 1%;
+    
+}
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    display: grid;
+    place-items: center;
+        
+}
+table{
+    border: 1px solid rgb(255, 254, 254);
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     height: 150%;
+     width:100% ;
+    left:50%;
+    top:50%;
+    
+}
+tr :hover{
+    background-color: red;
+    color: yellow;
+
+}
+
+th,td{
+    border: 1px solid rgb(251, 251, 251);
+}
+#white{
+    background-color: white;
+    color: black;
+}
+#yellow{
+    background-color: yellow;
+    color: white;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#aqua{
+    background-color: aqua;
+    color: white;
+}
+h1{ color: white;
+    align-items: center;
+    border: 1px solid green;
+    
+
+}
+.yellow{
+    color: yellow;
+    font-size: 30px;
+}
+.red{ color: red;
+      font-size: 30px;
+}
+.aqua{
+    color: aqua;
+    font-size: 30px;
+}
+button{
+    background-color: red;
+    color: white;
+    shape-outside: margin-box; 
+}
+img{
+    width: 15px;
+}
